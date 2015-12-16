@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_label: MyString
+  answer_1: MyString
+  answer_2: MyString
+  grade: MyString
+  level: MyString
+  author: MyString
+
+two:
+  question_label: MyString
+  answer_1: MyString
+  answer_2: MyString
+  grade: MyString
+  level: MyString
+  author: MyString

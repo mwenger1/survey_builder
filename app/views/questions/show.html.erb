@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question label:</strong>
+  <%= @question.question_label %>
+</p>
+
+<p>
+  <strong>Answer 1:</strong>
+  <%= @question.answer_1 %>
+</p>
+
+<p>
+  <strong>Answer 2:</strong>
+  <%= @question.answer_2 %>
+</p>
+
+<p>
+  <strong>Grade:</strong>
+  <%= @question.grade %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @question.level %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @question.author %>
+</p>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
